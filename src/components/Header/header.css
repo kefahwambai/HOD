@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #ffffff;
+}
+
+
+.header-container {
+    position: relative;
+    margin-top: 0rem;
+    height: 100vh;
+}
+
+.headerTitleLg {
+    position: absolute;
+    top: 65%;
+    font-size: 60px;
+    z-index: 3;
+}
+
+.slidez {
+    max-width: 100vw; 
+    overflow: hidden;
+    
+}
+
+.mySlides {
+    position: relative;
+    background-size: cover;
+    transition: transform 5.5s ease-in-out;
+    overflow: hidden; 
+    height: 100%;
+}
+
+.mySlides::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.1)
+    );
+    mix-blend-mode: overlay; 
+    z-index: 1; 
+}
+  
+.zoom-out {
+    transform: scale(2.0);
+    transition: transform 5.7s ease-in-out, opacity 5.7s ease-in-out;
+}
+
+
+.Typewriter__wrapper {
+    position: absolute;
+    font-size: 5rem ;
+    color: #f5f7f8 ;
+    font-weight: 580 ;
+    z-index: 3;
+    top: 50%;
+    left: 30%
+}
+
+  
+@media (max-width: 767px) {
+    .Typewriter__wrapper {
+      font-size: 1.4em !important;
+      font-weight: 500 !important;
+      position: absolute !important;
+    }
+    .Typewriter__cursor {
+      display: none !important;
+    }
+}
+
+#about {   
+    width: 100vw;
+    height: 73vh;
+    background-image: url(https://images.unsplash.com/photo-1517265853097-ba300fc3c4d9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;    
+      
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.cards {
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+  
+.card_image {
+    height: calc(25*1.5rem);    
+    width: 29vw;
+    position:relative;
+    margin-bottom: 15rem;
+    margin-top: 3rem;
+    left: -11rem;
+}
+.card_image:before,
+.card_image:after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    left:45%;
+    top: -30px;
+    height: 85px;
+    background: #c1bfbfb8;
+    transform: rotate(50deg);
+}
+.card_image:after{
+    transform: rotate(-45deg);
+    top:auto;
+    bottom:-45px;
+    left:20%;
+}
+.card_image img {
+    width:66vw;
+    height:100%;
+    padding-right: 32rem;
+    border-radius: 10px;
+}
+  
+.cards_item {
+    filter:drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
+}
+  
+  
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    display: flex;
+    position: absolute;
+    width: 70%;
+    z-index: 2;
+    margin-top: -3rem;
+    flex-direction: column;
+    overflow: hidden;
+    left: 15%;
+    align-items: center;
+    background: repeating-linear-gradient(#0000 0 calc(1.2rem - 1px),#66afe1 0 1.2rem) right bottom /100% 100%,linear-gradient(red 0 0) 30px 0/2px 100% #fff;
+    background-repeat: no-repeat;
+    line-height: 1.2rem;
+    -webkit-mask:radial-gradient(circle .8rem at 2px 50%,#0000 98%,#000)0 0/100% 2.4rem;
+     
+}
+  
+.card_content {
+    padding: 2.5rem;
+    height: 50vh;
+    width: 40%;
+    margin-left: 25rem;
+    margin-top: -35rem;
+ 
+}
+  
+.card_text {
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+h2.card_title {
+  font-size: 2rem;  
+  transform: rotate(0deg) skew(0, 0deg);
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -16rem; 
+  padding: 0.5rem;
+}
