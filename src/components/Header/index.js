@@ -83,6 +83,33 @@ export default function Header() {
             </ul>
           </div>
       </section>
+      <section id="events">
+        {/* <div className="c0ntainer">
+            <div className="slider">
+              <img className="active" src="https://source.unsplash.com/gKk9rpyDryU"/>
+              <img src="https://source.unsplash.com/VFGEhLznjPU"/>
+              <img src="https://source.unsplash.com/InR-EhiO_js"/>
+            </div>
+            <nav className="slider-nav">
+              <ul>
+                <li className="arrow">
+                  <button className="previous">
+                    <span>
+                      <i className="ion-arrow-left-c"></i>
+                    </span>
+                  </button>
+                </li>
+                <li className="arrow">
+                  <button className="next">
+                    <span>
+                      <i className="ion-arrow-right-c"></i>
+                    </span>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div> */}
+      </section>
     </div>
 
     
