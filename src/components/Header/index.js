@@ -75,7 +75,7 @@ export default function Header() {
                     <div className="card_text">
                       <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside…</p>
                       <br/>
-                      <a href='#' style={{cursor: 'pointer'}}> <p> Read Full Story </p></a>                     
+                      <a className="about-link" href='#' > <p> Read Full Story </p></a>                     
                     </div>
                   </div>
                 </div>                
@@ -84,31 +84,41 @@ export default function Header() {
           </div>
       </section>
       <section id="events">
-        {/* <div className="c0ntainer">
-            <div className="slider">
-              <img className="active" src="https://source.unsplash.com/gKk9rpyDryU"/>
-              <img src="https://source.unsplash.com/VFGEhLznjPU"/>
-              <img src="https://source.unsplash.com/InR-EhiO_js"/>
-            </div>
-            <nav className="slider-nav">
-              <ul>
-                <li className="arrow">
-                  <button className="previous">
-                    <span>
-                      <i className="ion-arrow-left-c"></i>
-                    </span>
-                  </button>
-                </li>
-                <li className="arrow">
-                  <button className="next">
-                    <span>
-                      <i className="ion-arrow-right-c"></i>
-                    </span>
-                  </button>
-                </li>
-              </ul>
-            </nav>
-          </div> */}
+      <div class="carousel" aria-label="Gallery">
+         <ol class="carousel__viewport">
+            <li id="carousel__slide1"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper">
+              </div>
+              <p className='carouselp'>Parties</p>
+            </li>
+             <li id="carousel__slide2"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <p className='carouselp'>Weddings</p>
+            </li>
+            <li id="carousel__slide3"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <p className='carouselp'>Event Planning</p>
+
+            </li>
+            <li id="carousel__slide4"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <p className='carouselp'>Corporate Events</p>
+
+            </li>
+          </ol>     
+        </div>     
+      </section>
+      <section id="planner">
+      
+      
       </section>
     </div>
 
