@@ -420,7 +420,58 @@ h2.card_title {
   width: 100vw;
   height: 100vh;
   background-image: url(https://images.unsplash.com/photo-1597407198530-b84dd7206205?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-size: contain;
+  /* background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; */
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif; 
+}
+
+.plaHead {
+ padding: 4rem;
+}
+
+.plaHead h1 {
+  color: #333;
+  font-size: 5em;
+}
+
+.plaHead p {
+  color: #787676;
+  font-size: 1em;
+  
+}
+
+.plancont {
+  margin-top: 13em;
+  display: flex;
+  color: #787676;
+  justify-content: space-around;
+}
+
+.plancont h1 {
+  font-size: 2.5rem;
+  font-weight: 450;
+}
+
+
+.plancont div {
+  text-align: center;
+}
+
+.plancont h3 {
+  font-weight: 750;
+  color: #000;
+  font-size: 1.6rem;
+}
+
+#test {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1495705073369-e23c899a68d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  /* background-size: contain; */
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;

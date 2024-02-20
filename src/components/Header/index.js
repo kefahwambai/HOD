@@ -117,8 +117,56 @@ export default function Header() {
         </div>     
       </section>
       <section id="planner">
-      
-      
+        <div className='plaHead'>
+          <h1>
+            Event Planning
+          </h1>
+          <p>
+          FOR ALL YOUR CATERING NEEDS
+          </p>
+        </div>
+        <div className='plancont'>
+          <div>
+            <h1>
+              01
+            </h1>
+            <h3> Consultaion </h3>
+            <p style={{ width: "200px"}}>
+            Apparently we had reached a great height in the atmosphere.
+            </p>
+          </div>
+          <div>
+            <h1>
+              02
+            </h1>
+            <h3> Confirmation </h3>
+            <p style={{ width: "200px"}}>
+            By the same illusion which lifts the horizon of the sea to the level 
+            </p>
+          </div>
+          <div>
+            <h1>
+              03
+            </h1>
+            <h3> We do the plan </h3>
+            <p style={{ width: "200px"}}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            </p>
+          </div>
+          <div>
+            <h1>
+              04
+            </h1>
+            <h3> Enjoy  </h3>
+            <p style={{ width: "200px"}}>
+            Apparently we had reached a great height in the atmosphere
+            </p>
+          </div>
+
+        </div>      
+      </section>
+      <section id="test">
+
       </section>
     </div>
 
