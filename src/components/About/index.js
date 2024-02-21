@@ -58,7 +58,7 @@ export default function About() {
             <img className='abtwelcke' src='https://images.unsplash.com/photo-1604702433171-33756f3f3825?q=80&w=2005&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
         </div>       
         <div className="abtwelcnt">
-            <h2 className="abtweltitle">House of Dotty, a premier catering and event planning company in Nairobi, Kenya.</h2>
+            {/* <h2 className="abtweltitle">House of Dotty, a premier catering and event planning company in Nairobi, Kenya.</h2> */}
             <div className="abtweltxt">
             <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside…</p>
             </div>

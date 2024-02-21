@@ -29,7 +29,7 @@
     
 }
 
-.mySlides {
+.mySlide {
     position: relative;
     background-size: cover;
     transition: transform 5.5s ease-in-out;
@@ -37,7 +37,7 @@
     height: 100%;
 }
 
-.mySlides::before {
+.mySlide::before {
     content: '';
     position: absolute;
     top: 0;
@@ -521,19 +521,6 @@ h2.card_title {
 }
 
 
-/* .border {
-  height: 369px;
-  width: 290px;
-  background: transparent;
-  border-radius: 10px;
-  transition: border 1s;
-  position: relative;
-} */
-
-/* .border:hover {
-  border: 1px solid white;
-} */
-
 .car {
   height: 379px;
   width: 300px;
@@ -602,7 +589,7 @@ h2.card_title {
   opacity: 1;
 }
 
-h2 {
+.containa h2  {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white; 
   opacity: 0;

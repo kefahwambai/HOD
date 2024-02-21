@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import "./header.css"
 import Typewriter from "typewriter-effect";
+import { Link } from 'react-router-dom';
 
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
     carousel();
 
     function carousel() {
-        var x = document.getElementsByClassName("mySlides");
+        var x = document.getElementsByClassName("mySlide");
   
         if (x.length > 0) {
           for (var i = 0; i < x.length; i++) {
@@ -56,11 +57,11 @@ export default function Header() {
           <span className="headerTitleLg">Let's plan your next event together</span>
           </div>
           <div className="slidez w3-content w3-section" style={{}}>
-            <img className="mySlides" src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1798&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{ width: "100%", height: "100vh" }}  />
-            <img className="mySlides" src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{ width: "100%",  height: "100vh" }} />
-            <img className="mySlides" src="https://images.unsplash.com/photo-1513623935135-c896b59073c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{ width: "100%",  height: "100vh" }}  />
-            <img className="mySlides" src="https://img.freepik.com/free-photo/bright-classy-wedding-table-serving_8353-10179.jpg?w=1060&t=st=1708344932~exp=1708345532~hmac=c47d1edb17b5362b4c86aab442b35036611668a310c47aa62a60f18b2490d0b5" style={{ width: "100%",  height: "100vh" }}  />
-            <img className="mySlides" src="https://images.unsplash.com/photo-1513623935135-c896b59073c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{ width: "100%",  height: "100vh" }}  />
+            <img className="mySlide" src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1798&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{ width: "100%", height: "100vh" }}  />
+            <img className="mySlide" src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{ width: "100%",  height: "100vh" }} />
+            <img className="mySlide" src="https://images.unsplash.com/photo-1513623935135-c896b59073c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{ width: "100%",  height: "100vh" }}  />
+            <img className="mySlide" src="https://img.freepik.com/free-photo/bright-classy-wedding-table-serving_8353-10179.jpg?w=1060&t=st=1708344932~exp=1708345532~hmac=c47d1edb17b5362b4c86aab442b35036611668a310c47aa62a60f18b2490d0b5" style={{ width: "100%",  height: "100vh" }}  />
+            <img className="mySlide" src="https://images.unsplash.com/photo-1513623935135-c896b59073c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{ width: "100%",  height: "100vh" }}  />
           </div>
         </div>
       </section>
@@ -75,7 +76,11 @@ export default function Header() {
                     <div className="card_text">
                       <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside…</p>
                       <br/>
-                      <a className="about-link" href='#' > <p> Read Full Story </p></a>                     
+                      <br/>
+                      <br/>
+                      
+                      {/* <a className="nav-link" href='#'> <p> Read Full Story </p></a> */}
+                      <a className="nav-link" ><Link style={{color: 'blue', textDecoration: 'underline'}} to="/about" > Read Full Story..... </Link></a>                     
                     </div>
                   </div>
                 </div>                
