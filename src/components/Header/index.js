@@ -167,10 +167,31 @@ export default function Header() {
       </section>
       <section id="test">
 
-      </section>
-    </div>
 
-    
+      </section>
+      <section id="venues">
+       <div className='venueHead'>
+          <h1>
+            Venues
+          </h1>
+          <p>
+          PLAN YOUR EVENT ANYWHERE YOU LIKE
+          </p>
+        </div>
+         <div class="containa">
+            <div class="car car0">
+                <h2>Beach Events</h2>
+            </div>
+            <div class="car car1">
+               <h2>Conference Rooms</h2>
+            </div>
+            <div class="car car2">
+                <h2>Lamu Beach</h2>
+            </div>
+            <button> More </button>
+         </div>        
+      </section>
+    </div>   
 
   );
 }

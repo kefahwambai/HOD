@@ -42,7 +42,7 @@ export default function Footer() {
                     <div className="col-xl-4 col-lg-4 mb-50">
                         <div className="footer-widget">
                             <div className="footer-logo">
-                                <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" className="img-fluid" alt="logo"/></a>
+                                <a href="index.html"><img src="" className="img-fluid" alt="logo"/></a>
                             </div>
                             <div className="footer-text">
                                 <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -62,26 +62,21 @@ export default function Footer() {
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
+                               
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
                                 <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div className="footer-widget">
                             <div className="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                                <h3>Join Our Mailing List</h3>
                             </div>
                             <div className="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                <p>Receive invitations, updates and bonuses for purchasing.</p>
                             </div>
                             <div className="subscribe-form">
                                 <form action="#">
@@ -101,18 +96,7 @@ export default function Footer() {
                         <div class="copyright-text">
                             <p>Copyright &copy; 2018, All Right Reserved <a href="https://kefahwambai.com/">Kefah Wambai</a></p>
                         </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Policy</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>

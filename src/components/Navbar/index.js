@@ -1,5 +1,6 @@
 import React from 'react'
 import "./nav.css"
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -12,10 +13,10 @@ export default function Navbar() {
                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">About US</a>
+                    <a className="nav-link" href="#"><Link style={{textDecoration: 'none'}} to="/about" > About Us </Link></a>
                     </li>
                     <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                        Services
                     </a>
                     <ul className="dropdown-menu">
@@ -25,7 +26,8 @@ export default function Navbar() {
                         <li><a className="dropdown-item" href="#">Party</a></li>
                     </ul>
                     </li>
-                    <a className="navbar-brand" href="#" style={{fontSize: '2.5rem'}}>House of Dotty</a>
+                    <Link style={{textDecoration: 'none', marginTop: '3rem'}} to="/"><a className="navbar-brand" style={{fontSize: '2.5rem'}}>House of Dotty</a></Link>
+                    
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>  
