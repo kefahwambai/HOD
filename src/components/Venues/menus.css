@@ -1,6 +1,6 @@
 #food{
     width: 100vw;
-    height:250vh;
+    height:290vh;
     background-color: rgb(239, 233, 224);
     color: #fff;
     padding: 20px;
@@ -11,13 +11,17 @@
 .menucard {
     text-align: center;
     background-color: rgb(225, 220, 213);
+ 
+}
+
+.venueimg {
     transition: transform 0.3s ease; 
-    transition: transform 0.3s ease;
     transform: scale(1.0);
 }
-.menucard:hover {
+.venueimg:hover {
     transform: scale(1.1);
 }
+
 .menucard .overlay-text {
     position: absolute;
     top: 50%;

@@ -10,11 +10,13 @@ import Parties from "./components/Services/Parties";
 import Weddings from "./components/Services/Weddings";
 import ScrollToTop from "./components/scrollToTop";
 import Venues from "./components/Venues";
+import Topbar from "./components/Topbar";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Topbar />
         <Navbar />
         <ScrollToTop />
         <Routes>

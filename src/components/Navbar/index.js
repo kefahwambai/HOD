@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div>
+    <div>        
        <nav className="navigation navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">                
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,7 +30,7 @@ export default function Navbar() {
 
                     </ul>
                     </li>
-                    <Link style={{textDecoration: 'none', marginTop: '3rem'}} to="/"><a className="navbar-brand" style={{fontSize: '2.5rem'}}>House of Dotty</a></Link>
+                    <Link style={{textDecoration: 'none', marginTop: '3.5rem'}} to="/"><a className="navbar-brand" style={{fontSize: '2.5rem'}}>House of Dotty</a></Link>
                     
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@ export default function Navbar() {
                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         More
                     </a>
-                    <ul className="dropdown-menu">
+                    <ul className="dropdown-menu" style={{marginTop: '-2.3rem', marginLeft: '2rem', borderRadius: '0', }} >
                         <li><a className="dropdown-item" href="#">FAQ</a></li>
                         <li><a className="dropdown-item" href="#">Gallery</a></li>
                         <li><hr className="dropdown-divider"/></li>
@@ -50,12 +50,12 @@ export default function Navbar() {
                     </ul>
                     </li> 
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Contact US</a>
+                    <a className="nav-link" href="#">Contact</a>
                     </li>               
                 </ul>            
                 </div>
             </div>
-            </nav>
+        </nav>
     </div>
   )
 }
