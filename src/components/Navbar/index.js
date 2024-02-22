@@ -19,11 +19,15 @@ export default function Navbar() {
                     <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                        Services
                     </a>
-                    <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Corporate</a></li>
-                        <li><a className="dropdown-item" href="#">Weddings</a></li>
-                        <li><hr className="dropdown-divider"/></li>
-                        <li><a className="dropdown-item" href="#">Party</a></li>
+                    <ul style={{marginTop: '-2.3rem', marginLeft: '2rem', borderRadius: '0', }} className="dropdown-menu">
+                        <div >
+                        <li><a className="dropdown-item" href="#"><Link style={{ textDecoration: 'none', color: 'black'}} to="/corporate">Corporate</Link></a></li>
+                        <li><a className="dropdown-item" href="#"><Link style={{ textDecoration: 'none', color: 'black'}}  to="/weddings">Weddings</Link></a></li>
+                        <li><a className="dropdown-item" href="#"><Link style={{ textDecoration: 'none', color: 'black'}}  to="/events">Event Planning</Link></a></li>
+                        <li><a className="dropdown-item" href="#"><Link style={{ textDecoration: 'none', color: 'black'}}  to="/parties">Parties</Link></a></li>
+
+                        </div>
+
                     </ul>
                     </li>
                     <Link style={{textDecoration: 'none', marginTop: '3rem'}} to="/"><a className="navbar-brand" style={{fontSize: '2.5rem'}}>House of Dotty</a></Link>

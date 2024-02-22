@@ -1,6 +1,8 @@
 import React from 'react'
 import { useEffect } from 'react';
 import "./about.css"
+import { Link } from 'react-router-dom';
+
 
 
 export default function About() {
@@ -49,9 +51,11 @@ export default function About() {
   return (
     <div className='abt'>
       <section id="abthead">
-        <div className='abth1'>
-            <h1> About US </h1>
-        </div>
+      <div className='abth1'>
+           <h1> About US </h1>
+           <br/>
+           <a><Link to="/">Home</Link>   &gt;  About </a>     
+      </div>
       </section>
       <section id="abtwelc">
         <div>
@@ -124,7 +128,7 @@ export default function About() {
                 <a href="#" class="button type--A">
                     <div class="button__line"></div>
                     <div class="button__line"></div>
-                    <span class="button__text">ENTRY</span>
+                    <span class="button__text">SEND REQUEST</span>
                     <div class="button__drow1"></div>
                     <div class="button__drow2"></div>
                 </a>

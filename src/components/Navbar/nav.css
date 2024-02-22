@@ -22,3 +22,7 @@
     padding: 2rem;
     margin-top: 3rem;
 }
+
+.dropdown-item:hover {
+    font-weight: 900;
+}

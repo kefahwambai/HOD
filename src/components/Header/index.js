@@ -79,7 +79,6 @@ export default function Header() {
                       <br/>
                       <br/>
                       
-                      {/* <a className="nav-link" href='#'> <p> Read Full Story </p></a> */}
                       <a className="nav-link" ><Link style={{color: 'blue', textDecoration: 'underline'}} to="/about" > Read Full Story..... </Link></a>                     
                     </div>
                   </div>

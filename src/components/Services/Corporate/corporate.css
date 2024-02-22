@@ -1,0 +1,48 @@
+#corpoverview {
+    width: 100vw;
+    height: 300vh;
+    background-color: rgb(239, 233, 224);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; 
+}
+
+#acle {
+    width: 50vw;
+    margin-top: 3rem;
+    color: black  
+}
+
+#acle div {
+    font-size: 1.3rem; 
+
+}
+
+.corpservice {
+    color: black;
+    list-style: circle;
+}
+
+.corpservice li {
+    list-style:disc;
+    margin-top: 1rem;
+}
+
+.corpservice li:hover {
+    font-weight: 700;
+}
+
+.servicecard {
+    text-align: center;
+    background-color: rgb(225, 220, 213);
+    transition: margin-top 0.3s ease; 
+}
+.servicecard:hover {
+    margin-top: -1.5rem;
+}
+
+#servcard {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
