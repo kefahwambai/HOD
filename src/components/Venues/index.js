@@ -14,7 +14,7 @@ export default function Venues() {
     <section id="food">
         <div style={{textAlign: 'center', padding: '15rem', fontSize: '2.5rem', color: 'black'}}>
         <h1 >
-        We offer our expertise in the area of choosing the perfect site having had the privilege to cater and plan magnificent events at some of New York’s most beautiful public and private venues over the past 35 years.
+        We offer our expertise in the area of choosing the perfect site having had the privilege to cater and plan magnificent events at some of Kenya's most beautiful public and private venues over the past 35 years.
         </h1>
         </div>       
         <div className='row' style={{ marginLeft: '10rem', marginTop: '-10rem'}}>
