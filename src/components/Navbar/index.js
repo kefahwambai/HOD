@@ -19,7 +19,7 @@ export default function Navbar() {
                     <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                        Services
                     </a>
-                    <ul style={{marginTop: '-2.3rem', marginLeft: '2rem', borderRadius: '0', }} className="dropdown-menu">
+                    <ul style={{marginTop: '-3rem', marginLeft: '2rem', borderRadius: '0', }} className="dropdown-menu">
                         <div >
                         <li><a className="dropdown-item" href="#"><Link style={{ textDecoration: 'none', color: 'black'}} to="/corporate">Corporate</Link></a></li>
                         <li><a className="dropdown-item" href="#"><Link style={{ textDecoration: 'none', color: 'black'}}  to="/weddings">Weddings</Link></a></li>
@@ -42,7 +42,7 @@ export default function Navbar() {
                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         More
                     </a>
-                    <ul className="dropdown-menu" style={{marginTop: '-2.3rem', marginLeft: '2rem', borderRadius: '0', }} >
+                    <ul className="dropdown-menu" style={{marginTop: '-3rem', marginLeft: '2rem', borderRadius: '0', }} >
                         <li><a className="dropdown-item" href="#">FAQ</a></li>
                         <li><a className="dropdown-item" href="#">Gallery</a></li>
                         <li><hr className="dropdown-divider"/></li>
@@ -50,7 +50,7 @@ export default function Navbar() {
                     </ul>
                     </li> 
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Contact</a>
+                    <a className="nav-link" href="#"><Link style={{color: 'black', textDecoration: 'none'}} to="/contact" > Contact </Link></a>
                     </li>               
                 </ul>            
                 </div>

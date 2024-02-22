@@ -11,6 +11,7 @@ import Weddings from "./components/Services/Weddings";
 import ScrollToTop from "./components/scrollToTop";
 import Venues from "./components/Venues";
 import Topbar from "./components/Topbar";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/parties" element={<Parties/>} />
           <Route path="weddings" element={<Weddings/>} />
           <Route path="/venue" element={<Venues/>} />
+          <Route path="/contact" element={ <Contact/>} />
         </Routes>
         <Footer />
       </div>
