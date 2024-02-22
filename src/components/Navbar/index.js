@@ -36,7 +36,7 @@ export default function Navbar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>  
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Venues</a>
+                    <a className="nav-link" href="#"><Link style={{color: 'black', textDecoration: 'none'}} to="/venue" > Venues </Link></a>
                     </li>
                     <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
