@@ -94,7 +94,7 @@ export default function Footer() {
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="https://kefahwambai.com/">Kefah Wambai</a></p>
+                            <p>Copyright &copy; 2024, All Right Reserved <a href="https://kefahwambai.com/">Kefah Wambai</a></p>
                         </div>
                     </div>                    
                 </div>
