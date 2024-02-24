@@ -192,7 +192,7 @@ export default function Header() {
             <div class="car car2">
                 <h2>Lamu Beach</h2>
             </div>
-            <button> More </button>
+            <a className="nav-link" href="#"><Link style={{color: 'black', textDecoration: 'none', fontSize: '1.2rem', fontWeight: '550'}} to="/venue" > More... </Link></a>
          </div>        
       </section>
     </div>   
