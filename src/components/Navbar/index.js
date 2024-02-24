@@ -45,8 +45,7 @@ export default function Navbar() {
                     <ul className="dropdown-menu" style={{marginTop: '-3rem', marginLeft: '2rem', borderRadius: '0', }} >
                         <li><a className="dropdown-item" href="#">FAQ</a></li>
                         <li><a className="dropdown-item" href="#">Gallery</a></li>
-                        <li><hr className="dropdown-divider"/></li>
-                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                        {/* <li><a className="dropdown-item" href="#">Something else here</a></li> */}
                     </ul>
                     </li> 
                     <li className="nav-item">
